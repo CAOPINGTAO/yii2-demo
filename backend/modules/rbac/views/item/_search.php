@@ -24,8 +24,8 @@ AppAsset::register($this);
     <?= $form->field($model, 'name')->textInput(['class'=>'layui-input search_input']) ?>
 	
     <div class="form-group">
-        <?= Html::submitButton('查找', ['class' => 'layui-btn layui-btn-normal']) ?>
-        <?= Html::button('添加', ['class' => 'layui-btn layui-default-add']) ?>
+        <?= Html::submitButton('查找', ['class' => 'layui-btn layui-btn-primary layui-btn-sm']) ?>
+        <?= Html::button('添加', ['class' => 'layui-btn layui-btn-primary layui-btn-sm layui-default-add']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

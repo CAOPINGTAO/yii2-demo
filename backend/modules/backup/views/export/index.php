@@ -9,7 +9,7 @@ $this->registerJs($this->render('js/export.js'));
 ?>
 <blockquote class="layui-elem-quote" style="font-size: 14px;">
     <p>
-        <?= Html::a('立即备份', ['init'], ['class' => 'layui-btn layui-btn-normal', 'id' => 'export']) ?>
+        <?= Html::a('立即备份', ['init'], ['class' => 'layui-btn layui-btn-primary layui-btn-sm', 'id' => 'export']) ?>
     </p>
 </blockquote>
 <div class="config-index layui-form">

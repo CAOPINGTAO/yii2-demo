@@ -26,9 +26,9 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'route')->textInput(['class'=>'layui-input search_input']) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('查找', ['class' => 'layui-btn layui-btn-normal']) ?>
-        <?= Html::button('添加', ['class' => 'layui-btn layui-default-add']) ?>
-		<?= Html::button('批量删除', ['class' => 'layui-btn layui-btn-danger layui-default-delete-all']) ?>
+        <?= Html::submitButton('查找', ['class' => 'layui-btn layui-btn-primary layui-btn-sm']) ?>
+        <?= Html::button('添加', ['class' => 'layui-btn layui-btn-primary layui-btn-sm layui-default-add']) ?>
+		<?= Html::button('批量删除', ['class' => 'layui-btn layui-btn-primary layui-btn-sm layui-default-delete-all']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
